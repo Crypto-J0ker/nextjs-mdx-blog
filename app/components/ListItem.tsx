@@ -5,7 +5,7 @@ type Props = {
     post: Meta
 }
 
-export default function ListItem({post}: Props) {
+export default function Post({post}: Props) {
     const {id, title, date} = post
     const formattedDate = getFormattedDate(date)
   return (
